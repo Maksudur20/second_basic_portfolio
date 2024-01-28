@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.btn-primary{
+    border: 1px solid #bc885d;
+    padding: 20px;
+    background-color: #009b81;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow:0 5px 5px black;
+    border: none;
+}
+
+.container{
+    max-width: 1366px;
+    width: 95%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+
+}
+nav li{
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    
+    
+}
+header{
+    background-color: rgb(0, 24, 77);
+    padding: 20px;
+}
+nav .sc{
+   height: 40px;
+   width: 45px;
+   cursor: pointer;
+}
+nav .search-bar{
+      padding: 8px;
+      border-radius: 12px;
+}
+.hero{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.89)), url("img/hero.jpeg") center center/cover no-repeat;
+    min-height: 86vh;
+  
+}
+.hero .container{
+    padding-top: 9%;
+    text-align: center;
+    line-height: 1.8;
+}
+.hero .container h4{
+    font-size: 40px;
+    color: #fff;
+}
+.hero .container p{
+    font-size: 24px;
+    color: #fff;
+}
+.hero .container h2{
+    color: #fff;
+}
+.hero .container h3{
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 25px;
+    color: #fff;
+}
+.hero .container button a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.hero .container button{
+    transition: 0.7s;
+}
+.hero .container button:hover{
+    font-size: 120%;
+}
+.hero .container img{
+    height: 300px;
+    width: 300px;
+
+}
+.projects{
+    background-color: #0d0416;
+    border-top:4px solid rgb(25, 10, 53);
+    
+}
+.projects .container h2{
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+    font-size: 70px;
+    color: #e1e1e1;
+}
+.projects .container .card{
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    margin-top: 7rem;
+}
+.projects .container .card .one{
+   padding: 6rem;
+   border: 1px solid rgb(61, 59, 59);
+   box-shadow: 0 0 15px gray;
+   border-radius: 12px;
+   margin-bottom: 4rem;
+}
+.projects .container .card .one h3{
+    color: #e1e1e1;
+    font-size: 32px;
+
+}
+.projects .container .card .two{
+    padding: 6rem;
+    border: 1px solid gray;
+    box-shadow: 0 0 15px gray;
+    border-radius: 12px;
+    margin-bottom: 4rem;
+
+}
+.projects .container .card .two h3{
+    color: #e1e1e1;
+    font-size: 32px;
+}
+.projects .container .card .one ul li{
+    color: #e1e1e1;
+    list-style: none;
+    margin-top: 15px;
+    padding: 4px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.projects .container .card .two ul li{
+    color: #e1e1e1;
+    list-style: none;
+    margin-top: 15px;
+    padding: 4px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.social-media  {
+    
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.89)), url("https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg") center center/cover no-repeat;
+}
+.social-media .container .top h2{
+    text-align: center;
+    padding: 20px;
+    color: #e1e1e1;
+    font-size: 32px;
+}
+.social-media .container .bottom{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.social-media .container .bottom img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+footer{
+    background-color: rgb(4, 1, 8);
+    min-height: 6vh;
+}
+footer .container h5{
+    color: #e1e1e1;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 18px;
+}
