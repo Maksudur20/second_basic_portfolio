@@ -38,6 +38,15 @@ nav li a{
     color: rgb(255, 255, 255);
        
 }
+nav li  :hover {
+    color: #165d8f;
+
+}
+
+nav li  :active {
+    color: #12ce41;
+
+}
 
 header{
     background-color: rgb(0, 24, 77);
@@ -174,9 +183,6 @@ nav .search-bar{
     margin-bottom: 20px;
     color: #165d8f;
 }
-
-
-
 
 footer{
     background-color: rgb(4, 1, 8);
